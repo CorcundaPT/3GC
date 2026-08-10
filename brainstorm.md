@@ -1,4 +1,4 @@
-Expectation:
+# Expectation
 
 This is a TTRPG on a high magical fantasy world. Anyone can swing a sword, shoot a bow, or cast a spell. To cast spells, you just need to roll below the target and can't have Mana Fatigue.
 (no mana but roll above or take “damage”?)
@@ -13,51 +13,44 @@ There will be four types of Fatigue being Exhaust for Body and Block, Dazed for 
 
 ---
 
-Attributes:
+# Attributes:
 
-*Health and Mana Fatigue*
-| Health is the amount of damage a creature can take until is knockout.
-| Mana Fatigue creature can't use spells.
+## Health, Mana and Mana Fatigue
 
-= Ways to increase Maximum Health
-| Talents
-| Glyphs
+- Heal is the amount of damage a creature can take until is knockout.
+- Mana is the fuel of magical essence allowing a creature to cast a spell.
+- Mana Fatigue creature can't use spells.
 
-= Ways to increase Mana Fatigue Capacity
-| Glyphs
-| Equipment
+Increase Maximum Health: Glyph, Talent; <br>
+Increase Maximum Mana: Equipment, Glyph, Talent; <br>
+Increase Mana Fatigue Capacity: Equipment, Glyph, Talent;
 
-*Basic Attributes*
-| Body, the physical attribute.
-| Mind, the mental attribute.
-| Soul, the spiritual attribute.
+## Basic Attributes
 
-= Ways to increase Basic Attribute:
-| Talents
-| Glyphs
+- Body, the physical attribute.
+- Mind, the mental attribute.
+- Soul, the spiritual attribute.
 
-*Combat Attributes*
-| Melee attribute, the ability to hit with melee weapons. (Body+Soul)/2
-| Ranged attribute, the ability to hit with ranged weapons. (Body+Mind)/2
-| Magic attribute, the ability to cast and hit with magical spells. (Mind+Soul)/2
+Increase Basic Attribute: Glyph, Talent
 
-= Critical Hits are scored when below one tenth of the target value.
-| Any weapon or spell can critical hit but scrolls and consumables can't.
-| On critical hits, any damage or effects of the weapon or spell are doubled.
-| When a coat weapon critical hit, only the effects of the coating isn't doubled.
+## Combat Attributes
+- Melee attribute, the ability to hit with melee weapons. (Body+Soul)/2
+- Ranged attribute, the ability to hit with ranged weapons. (Body+Mind)/2
+- Magic attribute, the ability to cast and hit with magical spells. (Mind+Soul)/2
 
-= Ways to increase Combat Attributes
-| Basic Attributes
-| Talents
-| Glyphs
+To score a critical hit must roll below one tenth of the target value. <br>
+Any weapon and spell can critical hit but scrolls and consumables can't. <br>
+On a critical hit, any damage or effect are doubled.
 
-*Defense Attributes*
-| Any defense attribute starts at 25% of its Basic Attribute.
-| Dodge attribute, the ability to dodge an attack. Uses the Soul attribute.
-| Block attribute, the ability to deflect a physical attack. Uses the Body attribute.
-| Ward attribute, the ability to deflect a magical attack. Uses the Mind attribute.
+Increase Combat Attributes: Basic Attributes, Glyph, Talent;
 
-= Depending the armor, the attributes change de ratio
+## Defense Attributes
+Any Defense Attribute starts at 25% of its Basic Attribute.
+- Dodge attribute, the ability to dodge an attack. Uses the Soul attribute.
+- Block attribute, the ability to deflect a physical attack. Uses the Body attribute.
+- Ward attribute, the ability to deflect a magical attack. Uses the Mind attribute.
+
+Depending the armor, the attributes change de ratio
 | Armor  | Dodge | Defense |
 | ------ | ----- | ------- |
 | Heavy  | +0%   |  +75%   |
@@ -65,189 +58,194 @@ Attributes:
 | Light  | +50%  |  +25%   |
 | None   | +75%  |  +0%    |
 
-= Ways to increase Defense Attribute:
-| Armor
-| Basic attributes
-| Glyphs
+Increase the Defense Attrbiutes: Armor, Basic Attribute, Glyph
 
-*Fatigue*
-| An Exhausted creature reduces the Body and Block attribute in half.
-| A Dazed creature reduces the Mind and Dodge attribute in half.
-| A Scared creature reduces the Soul and Ward attribute in half.
+## Fatigue
+- An Exhausted creature reduces the Body, Block, Melee, and Ranged attribute in half.
+- A Dazed creature reduces the Mind, Dodge, Ranged, and Magic attribute in half.
+- A Scared creature reduces the Soul, Ward, Melee, and Magic attribute in half.
 
 ---
 
-Skills:
+# Skills
 
-!! Repensar se as skill são fixas ou tags com niveis para os players usarem !!
-| Ideia de manter como skills fixas mas tem de aprender em vez de estar sempre a dar scale pelo atributo.
+> **Repensar se as skill são fixas ou tags com niveis para os players usarem** <br>
+> Ideia de manter como skills fixas mas tem de aprender em vez de estar sempre a dar scale pelo atributo.
 
-!! Rever Skills !!
+> **Rever Skills**
 
-*Passive*
-| - Awareness
-| - Balance
-| - Magic Sense
+## Passive
+- Awareness
+- Balance
+- Magic Sense
 
-*Basic Skills*
-| - Animal Control
-| - Alchemy
-| - Athletics
-| - Craft
-| - Deceive
-| - Entertaining
-| - Hunt
-| - Lore (specify)
-| - Medicine
-| - Social
-| - Stealth
-| - Thievery
+## Basic Skills
+- Animal Control
+- Alchemy
+- Athletics
+- Craft
+- Deceive
+- Entertaining
+- Hunt
+- Lore (specify)
+- Medicine
+- Social
+- Stealth
+- Thievery
 
-!! Rever Skills !!
+> **Rever Skills**
 
-*Weapon Skills*
-| - Axe
-| - Bow
-| - Brawling
-| - Crossbow
-| - Hammer
-| - Knife
-| - Sling
-| - Spear
-| - Staff
-| - Sword
+## Weapon Skills
+- Axe
+- Bow
+- Brawling
+- Crossbow
+- Hammer
+- Knife
+- Sling
+- Spear
+- Staff
+- Sword
 
-*Magic Skills*
-| - Aeromancy
-| - Astralmancy
-| - Cryomancy
-| - Floramancy
-| - Geomancy
-| - Hydromancy
-| - Lumomancy
-| - Necromancy
-| - Pyromancy
-| - Shockmancy
-| - Umbramancy
-
----
-
-Specialization:
-
-!! Repensar a idea de specializations, possivelmente passer para preset builds !!
-| As specializations vão ser um conjunto de talents que fazem sync entre elas.
-| Vai haver preset builds para facilitar jogares novatos.
-
-*Artist*
-| - Dancer
-| - Musician
-| - Painter
-
-*Artisan*
-| - Alchemist
-| - Engineer
-| - Runecrafter
-
-*Mercenary*
-| - Archer
-| - Assassin
-| - Crusader
-| - Knight
-
-*Scholar*
-| - Aeromancy
-| - Astralmancy
-| - Cryomancy
-| - Floramancy
-| - Geomancy
-| - Hydromancy
-| - Lumomancy
-| - Necromancy
-| - Pyromancy
-| - Shockmancy
-| - Umbramancy
-
-*Tribalist*
-| - Beast Master
-| - Elementalist
-| - Divenist
-| - Naturalist
-| - Shapeshifter
+## Magic Skills
+- Aeromancy
+- Astralmancy
+- Cryomancy
+- Floramancy
+- Geomancy
+- Hydromancy
+- Lumomancy
+- Necromancy
+- Pyromancy
+- Shockmancy
+- Umbramancy
 
 ---
 
-Talents:
+# Specialisation:
 
-At every level, the character gains a Talent Point to enhance the attributes or unlock new abilities.
+> **Repensar a idea de specialisations, possivelmente passer para preset builds** <br>
+> As specialisations vão ser um conjunto de talents que fazem sync entre elas. <br>
+> Vai haver preset builds para facilitar jogares novatos.
 
-They gain a Talent Point every 4h of sessions
+## Artist
+- Dancer
+- Musician
+- Painter
 
-!! Talents abaixo para rever !!
+## Artisan
+- Alchemist
+- Engineer
+- Runecrafter
 
-Common:
+## Mercenary
+- Archer
+- Assassin
+- Crusader
+- Knight
 
-[3] *Vitality Extender* (Common)
-| +1 Maximum Health
+## Scholar
+- Aeromancy
+- Astralmancy
+- Cryomancy
+- Floramancy
+- Geomancy
+- Hydromancy
+- Lumomancy
+- Necromancy
+- Pyromancy
+- Shockmancy
+- Umbramancy
 
-[5] *Mana Extender* (Common)
-| +1 Mana Fatigue Capacity
-
-[1] *Body Training* (Common)
-| +1 Body Attribute
-
-[1] *Mind Training* (Common)
-| +1 Mind Attribute
-
-[1] *Soul Training* (Common)
-| +1 Soul Attribute
-
----
-
-Glyphs:
-
-Every 10 level you unlock Glyph Slot. You can choose from the General Glyphs or the Specialization Glyphs if you have the prerequisites.
-
-They gain a Glyph Slot every 40h of sessions
-
-!! Glyphs abaixo para rever !!
-
-[1] *Anxiety* (Common)
-| +5 Dodge Attribute
-
-[1] *Masochist* (Common)
-| +5 Block Attribute
-
-[1] *Third Eye* (Common)
-| +5 Ward Attribute
-
-[1] *Precise Strike* (Weapons)
-| +10 on all Melee Weapon's Skill.
-
-[1] *Precise Shoot* (Weapons)
-| +10 on all Ranged Weapon's Skill.
-
-[1] *Precise Spell* (Weapons)
-| +10 on all Spell's Skill.
-
-[1] *Powerful Strike* (Melee Weapons)
-| Your Melee Weapon's attacks deal +1 damage.
-
-[1] *Powerful Shot* (Ranged Weapons)
-| Your Ranged Weapon's attacks deal +1 damage.
-
-[1] *Powerful Spell* (Spells)
-| Your Spell's attacks deal +1 damage.
-
-[1] *Signature Spell* (Scholar)
-| After each Rest, choose one spell to cast without spending Mana until the next Rest.
-| Doing so spends twice the Mana needed to store the spell.
-
-!Signature Spell could change because of new mana system!
-| provavelmente ganhar um de mana fatigue mas poder usar o spell mesmo que tenha mana fatigue no maximo.
+## Tribalist
+- Beast Master
+- Elementalist
+- Divenist
+- Naturalist
+- Shapeshifter
 
 ---
 
-Weapons:
+# Talents
+
+The character gains a Talent Point **every 4h sessions** to enhance the attributes or unlock new abilities.
+
+## Cost 1
+> ### Body Training (Cost 1)
+> +1 Body Attribute
+
+> ### Mind Training (Cost 1)
+> +1 Mind Attribute
+
+> ### Soul Training (Cost 1)
+> +1 Soul Attribute
+
+## Cost 2
+> ### Mana Extender (Cost 2)
+> +1 Maximum Mana
+
+## Cost 3
+> ### Vitality Extender (Cost 3)
+> +1 Maximum Health
+
+## Cost 4
+
+## Cost 5
+> ### Mana Fatigue Extender (Cost 5)
+> +1 Mana Fatigue Capacity
+
+---
+
+# Glyphs
+
+The character unlock Glyph Slots **every 40h sessions** to enhance the attributes or unlock new abilities.
+
+> **Glyphs abaixo para rever**
+
+## Size 1
+> ### Anxiety (Size 1)
+> +5 Dodge Attribute
+
+> ### Masochist (Size 1)
+> +5 Block Attribute
+
+> ### Dementia (Size 1)
+> +5 Ward Attribute
+
+> ### Precise Swings (Size 1)
+> +10 on all Melee Weapon's Skill.
+
+> ### Precise Shoot (Size 1)
+> +10 on all Ranged Weapon's Skill.
+
+> ### Precise Concentration (Size 1)
+> +10 on all Magic Spell's Skill.
+
+> ### Powerful Swings (Size 1)
+> +1 damage on Melee Weapons.
+
+> ### Powerful Shoot (Size 1)
+> +1 damage on Ranged Weapons.
+
+> ### Powerful Concentration (Size 1)
+> +1 damage on Magic Spells.
+
+> ### Signature Spell (Size 1)
+> After each rest, choose one spell to cast without spending Mana until the next Rest. <br>
+> Doing so spends twice the Mana needed to store the Spell.
+> This spell can be cast even with Mana Fatigue at maximum capacity.
+
+---
+
+# Weapons
+
+
+
+CONTINUAR AQUII!!!
+
+
+
+
 
 Great Axe
 | Melee Weapon - Axe
