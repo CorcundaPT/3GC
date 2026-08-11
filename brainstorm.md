@@ -171,27 +171,28 @@ Increase the Defense Attrbiutes: Armor, Basic Attribute, Glyph
 The character gains a Talent Point **every 4h sessions** to enhance the attributes or unlock new abilities.
 
 ## Cost 1
-> ### Body Training (Cost 1)
-> +1 Body Attribute
 
-> ### Mind Training (Cost 1)
+### Body Training (Cost 1)
+> +1 Body Attribute 
+
+### Mind Training (Cost 1)
 > +1 Mind Attribute
 
-> ### Soul Training (Cost 1)
+### Soul Training (Cost 1)
 > +1 Soul Attribute
 
 ## Cost 2
-> ### Mana Extender (Cost 2)
-> +1 Maximum Mana
 
 ## Cost 3
-> ### Vitality Extender (Cost 3)
+
+### Vitality Extender (Cost 3)
 > +1 Maximum Health
 
 ## Cost 4
 
 ## Cost 5
-> ### Mana Fatigue Extender (Cost 5)
+
+### Mana Extender (Cost 5)
 > +1 Mana Fatigue Capacity
 
 ---
@@ -203,88 +204,87 @@ The character unlock Glyph Slots **every 40h sessions** to enhance the attribute
 > **Glyphs abaixo para rever**
 
 ## Size 1
-> ### Anxiety (Size 1)
+
+### Anxiety (Size 1)
 > +5 Dodge Attribute
 
-> ### Masochist (Size 1)
+### Masochist (Size 1)
 > +5 Block Attribute
 
-> ### Dementia (Size 1)
+### Dementia (Size 1)
 > +5 Ward Attribute
 
-> ### Precise Swings (Size 1)
+### Precise Swings (Size 1)
 > +10 on all Melee Weapon's Skill.
 
-> ### Precise Shoot (Size 1)
+### Precise Shoot (Size 1)
 > +10 on all Ranged Weapon's Skill.
 
-> ### Precise Concentration (Size 1)
+### Precise Concentration (Size 1)
 > +10 on all Magic Spell's Skill.
 
-> ### Powerful Swings (Size 1)
+### Powerful Swings (Size 1)
 > +1 damage on Melee Weapons.
 
-> ### Powerful Shoot (Size 1)
+### Powerful Shoot (Size 1)
 > +1 damage on Ranged Weapons.
 
-> ### Powerful Concentration (Size 1)
+### Powerful Concentration (Size 1)
 > +1 damage on Magic Spells.
 
-> ### Signature Spell (Size 1)
-> After each rest, choose one spell to cast without spending Mana until the next Rest. <br>
-> Doing so spends twice the Mana needed to store the Spell.
+### Signature Spell (Size 1)
+> After each rest, choose one spell to cast without impose Mana Fatigue until the next Rest. <br>
+> The stored spell can only have a number of upscales up to 1/10 of the Magic Attribute without penalties. <br>
 > This spell can be cast even with Mana Fatigue at maximum capacity.
 
 ---
 
 # Weapons
 
+## Melee Weapons
 
+### Great Axe
+> Melee Weapon - Axe <br>
+> Type: Heavy, Two-handed <br>
+> Damage: 3
 
-CONTINUAR AQUII!!!
+### Hatchet
+> Melee Weapon - Axe <br>
+> Type: Light, Throw (10m) <br>
+> Damage : 1
 
+## Ranged Weapons
 
+### Hand Crossbow
+> Ranged Weapon - Crossbow <br>
+> Type: Light, Range (30m) <br>
+> Damage: 1
 
+### Heavy Crossbow
+> Ranged Weapon - Crossbow <br>
+> Type: Heavy, Range (30m), Two-handed <br>
+> Damage: 3
 
+### Light Crossbow
+> Ranged Weapon - Crossbow <br>
+> Type: Range (30m), Two-handed <br>
+> Damage: 2
 
-Great Axe
-| Melee Weapon - Axe
-| Type: Heavy; Two-handed
-| Damage : 3
+### Longbow
+> Ranged Weapon - Bow <br>
+> Type: Heavy; Range (60m); Two-handed <br>
+> Damage: 2
 
-Hatchet
-| Melee Weapon - Axe
-| Type: Light, Throw (10m)
-| Damage : 1
-
-Hand Crossbow
-| Ranged Weapon - Crossbow
-| Type: Light; Range (30m)
-| Damage: 1
-
-Heavy Crossbow
-| Ranged Weapon - Crossbow
-| Type: Heavy; Range (30m); Two-handed
-| Damage: 3
-
-Light Crossbow
-| Ranged Weapon - Crossbow
-| Type: Range (30m); Two-handed
-| Damage: 2
-
-Longbow
-| Ranged Weapon - Bow
-| Type: Heavy; Range (60m); Two-handed
-| Damage: 2
-
-Shortbow
-| Ranged Weapon - Bow
-| Type: Range (30m); Two-handed
-| Damage: 2
+### Shortbow
+> Ranged Weapon - Bow <br>
+> Type: Range (30m); Two-handed <br>
+> Damage: 2
 
 ---
 
 Armor:
+
+Armor are costumized to the user making it have all types of effect. The most common with no extra effects follow the rules of the table below.
 
 | Armor  | Dodge | Defense |
 | ------ | ----- | ------- |
@@ -293,17 +293,20 @@ Armor:
 | Light  | +50%  |  +25%   |
 | None   | +75%  |  +0%    |
 
-Defense bonus will be to Block or Ward depending on the type of armor.
-| For Block, the armor is made out of heavy and resistant metal.
-| For Ward, the armor is coverd in heavy sigils helping the user resist spells.
-| Their could be costume armor where in an heavy armor give 25% Block and 50% Ward spliting the defense bonus for both defenses.
-| The can only be made for every 25%.
+Defense bonus will be to Block or Ward depending on the type of armor.<br>
+Armors focus on Blockare made out of heavy and resistant metal, while Ward focus armors are coverd in heavy sigils helping the user resist spells. <br>
+There could be costume armor where in an heavy armor give 25% Block and 50% Ward spliting the defense bonus for both defenses. When spliting defenses, it can only be made for every 25%.
+
+
+---
+
+# WIP below
 
 ---
 
 Spells:
 
-Spellcasting uses the Mind+Soul roll. To cast a spell, the caster takes their Mind+Soul roll and subtract the amount of up scales the caster choose to cast the spell. For exemple, a caster with no bonus and a casting score of 15, it can upscale the range by 3 and the damage by 2, reducing the score to a 10 instead of a 15.
+Casting a spell uses both Mind and Soul to cast a spell, the caster takes their Magic roll and subtract the amount of up scales the caster choose to cast the spell. For exemple, a caster with no bonus and a Magic score of 75, it can upscale the range by 3 and the damage by 2, reducing the score to a 10 instead of a 15.
 
 If the caster fails the roll and is not a critical fail, the caster can choose to not cast the spell or cast the spell and take 1 Mana Fatigue.
 
