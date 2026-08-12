@@ -13,7 +13,7 @@ There will be four types of Fatigue being Exhaust for Body and Block, Dazed for 
 
 ---
 
-# Attributes:
+# Attributes
 
 ## Health, Mana and Mana Fatigue
 
@@ -297,38 +297,57 @@ Defense bonus will be to Block or Ward depending on the type of armor.<br>
 Armors focus on Blockare made out of heavy and resistant metal, while Ward focus armors are coverd in heavy sigils helping the user resist spells. <br>
 There could be costume armor where in an heavy armor give 25% Block and 50% Ward spliting the defense bonus for both defenses. When spliting defenses, it can only be made for every 25%.
 
+---
+
+# Spells
+
+Casting a spell uses both Mind and Soul, the caster takes their Magic roll and subtract the amount of up scales the caster choose to cast the spell times five. For example, a caster with a Magic score of 75 upscales a spell for 3, giving a penalty of 15 reducing the target score to a 60.
+
+If the caster fails the roll, the caster can choose to not cast the spell or cast it but takes 1 Mana Fatigue. <br>
+A creature as no Mana Fatigue slot empty, are unable cast any more spells until it reduces the Mana Fatigue. <br>
+Mana Fatigue can be reduced by 1 after a rest.
+
+> **Criar talents e Glyphs que reduzem o requesito de fazer spells mais fortes.**
+
+## Basic Upscales on spells
+
+### Area
+
+Spell are focused in a small point at originating the effect. The caster can upscale the spell to increase the size of effect. It can be increased by any amount of times in one of following types of area:
+- +2m Radius / upscale;
+- +4m Cone / upscale;
+- +6m Line / upscale;
+
+### Duration
+
+The effects of a spell occures for a split secong. The caster can upscale spell so the effect preciste for a longer period of time. It can be increase by time or while concentrate.
+- +1 Round / upscale;
+- Concentrate on one spell until it lose focus;
+
+### Range
+
+The spell has is origin on the caster since its energy is being manipulated by them. The caster can upscale spell make distance from them and the spell effect. It can increase the range by the following:
+- +2m Range / upscale;
+
+### Damage
+
+Pain can be caused by weapons or emotion, spells do it both. The caster can upscale a spell making it deadlier. It can increase the damage by the following:
+- +1 Damage / upscale;
+
+The damage tpe will depend what element the caster is manipulating.
+
+### Elemental Effect
+
+Energy in spells create all type of effects depending on where the caster extract it. The caster can upscale a spell to create a elementar effect. It can increase the potency of the effect by the following:
+- +1 Stack of Elemental Effect / upscale;
+
+Each element has its own effect.
 
 ---
 
 # WIP below
 
 ---
-
-Spells:
-
-Casting a spell uses both Mind and Soul to cast a spell, the caster takes their Magic roll and subtract the amount of up scales the caster choose to cast the spell. For exemple, a caster with no bonus and a Magic score of 75, it can upscale the range by 3 and the damage by 2, reducing the score to a 10 instead of a 15.
-
-If the caster fails the roll and is not a critical fail, the caster can choose to not cast the spell or cast the spell and take 1 Mana Fatigue.
-
-If a creature as the maximum amount of Mana Fatigue it can handle, the creature are unable to cast any more spells until it reduces the Mana Fatigue. Mana Fatigue can be reduced by 1 after a rest.
-
-\\
-Criar talents e Glyphs que reduzem o requesito de fazer spells mais fortes.
-//
-
-*Spell Basics*
-| - Area: Origin Point (+2m Radius / Mana)
-| - Area: Origin Point (+4m Cone / Mana)
-| - Area: Origin Point (+6m Line / Mana)
-|
-| - Duration: Instant (+1 Round / Mana)
-| - Duration: Instant (active while Concentrate)
-|
-| - Range: Self (+2m Range / Mana)
-|
-| - Damage: No spell Damage (+1 Damage / Mana)
-|
-| - Elemental Effect: No spell Effect (+1 stack / Mana)
 
 
 *Astral*
