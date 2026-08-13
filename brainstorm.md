@@ -317,6 +317,7 @@ Spell are focused in a small point at originating the effect. The caster can ups
 - +2m Radius / upscale;
 - +4m Cone / upscale;
 - +6m Line / upscale;
+> Any spell cast with a Line area, has always 2m width. For example, casting a effect in Line like a wall, the wall will have a lentgh of 6m and a width and height of 2m.
 
 ### Duration
 
@@ -343,33 +344,31 @@ Energy in spells create all type of effects depending on where the caster extrac
 
 Each element has its own effect.
 
+### Astralmancy
+
+- +1 Echo Stack / upscale
+> Whenever a creature is hit by a spell while having an Echo stack, the spell increases one of its properties like an upscale.
+> At the moment the spell hits, all echo spells are consumed and the caster choose the properties that are upscaled by the number of Echo stacks.
+
+### Aeromancy
+
+- +2m push or pull / upscale
+> Manipulating wind to cast a spell is powerfull enouth to knock down or blow away any creature. Depending on their size more or less powerfull.
+> A creture hit by this spell can be push away or pulled toward the origin point of the spell.
+
+### Cryomancy
+
+- +1 Frost Stack / upscale
+> Cold temperature can slow a creture down.
+> While a creature has a Frost stack, its speed is reduced by 2m. If the creature has negative speed, the creature takes damage at the end of its turn equal to half of the negative speed.
+
 ---
 
 # WIP below
 
 ---
 
-
-*Astral*
-| - Echo (passive): No Echo stack (+1 Echo / Mana)
-| | Whenever a creature with an Echo stack is hitted by a spell, one of the spell properties is Amped.
-| | The spell can be amp by Area, Damage, Duration, or elemental effects.
-| | The amp quantity is defined by the amount of Echo stacks the creature has.
-|
-| - (future sight?)
-
-
-*Aero*
-| - (push away)
-|
-| - (pull)
-
-
 *Cryo*
-| - Frost (passive): No Frost stack (+1 Frost / Mana)
-| | During a frosted creature's turn, the creature's movable distance is reduced by 2m for each Frost stack.
-| | At the of the turn, the creature reduces the Frost stacks reduced by 1.
-|
 | - Freeze (active): [Range]
 | | Target a creature with Frost stacks and freeze it in place.
 | | Remove 5 Frost stacks from the target and apply 1 Freeze stack.
