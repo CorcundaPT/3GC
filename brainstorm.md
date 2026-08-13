@@ -347,19 +347,19 @@ Each element has its own effect.
 ### Astralmancy
 
 - +1 Echo Stack / upscale
-> Whenever a creature is hit by a spell while having an Echo stack, the spell increases one of its properties like an upscale.
+> Whenever a creature is hit by a spell while having an Echo stack, the spell increases one of its properties like an upscale. <br>
 > At the moment the spell hits, all echo spells are consumed and the caster choose the properties that are upscaled by the number of Echo stacks.
 
 ### Aeromancy
 
 - +2m push or pull / upscale
-> Manipulating wind to cast a spell is powerfull enouth to knock down or blow away any creature. Depending on their size more or less powerfull.
+> Manipulating wind to cast a spell is powerfull enouth to knock down or blow away any creature. Depending on their size more or less powerfull. <br>
 > A creture hit by this spell can be push away or pulled toward the origin point of the spell.
 
 ### Cryomancy
 
 - +1 Frost Stack / upscale
-> Cold temperature can slow a creture down.
+> Cold temperature can slow a creture down. <br>
 > While a creature has a Frost stack, its speed is reduced by 2m. If the creature has negative speed, the creature takes damage at the end of its turn equal to half of the negative speed.
 
 ---
