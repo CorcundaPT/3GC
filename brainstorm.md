@@ -15,7 +15,7 @@ There will be four types of Fatigue being Exhaust for Body and Block, Dazed for 
 
 # Attributes
 
-## Health, Mana and Mana Fatigue
+## Health and Mana Fatigue
 
 - Heal is the amount of damage a creature can take until is knockout.
 - Mana is the fuel of magical essence allowing a creature to cast a spell.
