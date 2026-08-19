@@ -258,7 +258,7 @@ Armor are costumized to the user making it have all types of effect. The most co
 | None   | +75%  |  +0%    |
 
 Defense bonus will be to Block or Ward depending on the type of armor.<br>
-Armors focus on Blockare made out of heavy and resistant metal, while Ward focus armors are coverd in heavy sigils helping the user resist spells. <br>
+Armors focus on Block are made out of heavy and resistant metal, while Ward focus armors are coverd in heavy sigils helping the user resist spells. <br>
 There could be costume armor where in an heavy armor give 25% Block and 50% Ward spliting the defense bonus for both defenses. When spliting defenses, it can only be made for every 25%.
 
 ---
