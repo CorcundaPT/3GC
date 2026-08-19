@@ -281,11 +281,11 @@ Spell are focused in a small point at originating the effect. The caster can ups
 - +2m Radius / upscale;
 - +4m Cone / upscale;
 - +6m Line / upscale;
-> Any spell cast with a Line area, has always 2m width. For example, casting a effect in Line like a wall, the wall will have a lentgh of 6m and a width and height of 2m.
+> Any spell cast with a Line area, has always 2m width. For example, casting a effect in Line like a wall, the wall will have a length of 6m and a width and height of 2m.
 
 ### Duration
 
-The effects of a spell occures for a split secong. The caster can upscale spell so the effect preciste for a longer period of time. It can be increase by time or while concentrate.
+The effects of a spell occurs for a split second. The caster can upscale spell so the effect persiste for a longer period of time. It can be increase by time or while concentrate.
 - +1 Round / upscale;
 - Concentrate on one spell until it lose focus;
 
@@ -299,7 +299,7 @@ The spell has is origin on the caster since its energy is being manipulated by t
 Pain can be caused by weapons or emotion, spells do it both. The caster can upscale a spell making it deadlier. It can increase the damage by the following:
 - +1 Damage / upscale;
 
-The damage tpe will depend what element the caster is manipulating.
+The damage type will depend what element the caster is manipulating.
 
 ### Elemental Effect
 
