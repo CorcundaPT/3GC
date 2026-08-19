@@ -54,7 +54,7 @@ Depending the armor, the attributes change de ratio
 | Armor  | Dodge | Defense |
 | ------ | ----- | ------- |
 | Heavy  | +0%   |  +75%   |
-| Medium | +20%  |  +50%   |
+| Medium | +25%  |  +50%   |
 | Light  | +50%  |  +25%   |
 | None   | +75%  |  +0%    |
 
@@ -246,20 +246,20 @@ The character gains a Talent Point **every 4h sessions** to enhance the attribut
 
 ---
 
-Armor:
+# Armor:
 
-Armor are costumized to the user making it have all types of effect. The most common with no extra effects follow the rules of the table below.
+Armor are costumizeble to the user making it have all types of effect. The most common with no extra effects follow the rules of the table below.
 
-| Armor  | Dodge | Defense |
-| ------ | ----- | ------- |
-| Heavy  | +0%   |  +75%   |
-| Medium | +20%  |  +50%   |
-| Light  | +50%  |  +25%   |
-| None   | +75%  |  +0%    |
+| Armor | Dodge | Defense |
+|-------|-------|---------|
+| Heavy | +0%   |  +75%   |
+| Medium| +25%  |  +50%   |
+| Light | +50%  |  +25%   |
+| None  | +75%  |  +0%    |
 
-Defense bonus will be to Block or Ward depending on the type of armor.<br>
-Armors focus on Block are made out of heavy and resistant metal, while Ward focus armors are coverd in heavy sigils helping the user resist spells. <br>
-There could be costume armor where in an heavy armor give 25% Block and 50% Ward spliting the defense bonus for both defenses. When spliting defenses, it can only be made for every 25%.
+Defense bonus will be to Block or Ward depending on the type of armor. Armors focus on Block are made out of heavy and resistant metal, while Ward focus armors are covered in heavy sigils helping the user resist spells.  
+
+There could be costume armor where in an heavy armor give 25% Block and 50% Ward splitting the defense bonus for both defenses. When splitting defenses, it can only be made for every 25%.
 
 ---
 
