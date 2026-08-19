@@ -185,9 +185,6 @@ The character gains a Talent Point **every 4h sessions** to enhance the attribut
 
 ## Cost 3
 
-### Vitality Extender (Cost 3)
-> +1 Maximum Health
-
 ## Cost 4
 
 ## Cost 5
@@ -195,47 +192,14 @@ The character gains a Talent Point **every 4h sessions** to enhance the attribut
 ### Mana Extender (Cost 5)
 > +1 Mana Fatigue Capacity
 
----
+### Vitality Extender (Cost 5)
+> +1 Maximum Health
 
-# Glyphs
+## Cost 10
 
-The character unlock Glyph Slots **every 40h sessions** to enhance the attributes or unlock new abilities.
-
-> **Glyphs abaixo para rever**
-
-## Size 1
-
-### Anxiety (Size 1)
-> +5 Dodge Attribute
-
-### Masochist (Size 1)
-> +5 Block Attribute
-
-### Dementia (Size 1)
-> +5 Ward Attribute
-
-### Precise Swings (Size 1)
-> +10 on all Melee Weapon's Skill.
-
-### Precise Shoot (Size 1)
-> +10 on all Ranged Weapon's Skill.
-
-### Precise Concentration (Size 1)
-> +10 on all Magic Spell's Skill.
-
-### Powerful Swings (Size 1)
-> +1 damage on Melee Weapons.
-
-### Powerful Shoot (Size 1)
-> +1 damage on Ranged Weapons.
-
-### Powerful Concentration (Size 1)
-> +1 damage on Magic Spells.
-
-### Signature Spell (Size 1)
-> After each rest, choose one spell to cast without impose Mana Fatigue until the next Rest. <br>
-> The stored spell can only have a number of upscales up to 1/10 of the Magic Attribute without penalties. <br>
-> This spell can be cast even with Mana Fatigue at maximum capacity.
+### Signature Spell (Cost 10)
+> After each rest, choose one spell that can be cast even at maximum Mana Fatigue *capacity* until the next Rest. <br>
+> The stored spell can only have a number of upscale up to 1/10 of the Magic Attribute without penalties.
 
 ---
 
@@ -342,25 +306,7 @@ The damage tpe will depend what element the caster is manipulating.
 Energy in spells create all type of effects depending on where the caster extract it. The caster can upscale a spell to create a elementar effect. It can increase the potency of the effect by the following:
 - +1 Stack of Elemental Effect / upscale;
 
-Each element has its own effect.
-
-### Astralmancy
-
-- +1 Echo Stack / upscale
-> Whenever a creature is hit by a spell while having an Echo stack, the spell increases one of its properties like an upscale. <br>
-> At the moment the spell hits, all echo spells are consumed and the caster choose the properties that are upscaled by the number of Echo stacks.
-
-### Aeromancy
-
-- +2m push or pull / upscale
-> Manipulating wind to cast a spell is powerfull enouth to knock down or blow away any creature. Depending on their size more or less powerfull. <br>
-> A creture hit by this spell can be push away or pulled toward the origin point of the spell.
-
-### Cryomancy
-
-- +1 Frost Stack / upscale
-> Cold temperature can slow a creture down. <br>
-> While a creature has a Frost stack, its speed is reduced by 2m. If the creature has negative speed, the creature takes damage at the end of its turn equal to half of the negative speed.
+Each element has its own elemental effects to unlock on the talents area.
 
 ---
 
@@ -418,11 +364,6 @@ Geomancy
 | - (bonus to attack?)
 |
 | - (Shadow cloud)
-
-
-
-
-
 
 \\
 |Status damage builds up against Body stats (example: 20 burn on 15 body creature, deals 1 burn damage at the start of the turn passing all defences. 20 burn on 10 body creature deals 2burn damage.)
@@ -502,3 +443,73 @@ Wound- A creature with a Wound as the Dodge defense reduced by 1 until the targe
 \\
 Use different termenology for Mana Fatigue. This describes who magicaly exhausted are the creature.
 //
+
+---
+
+# REMOVER
+
+---
+
+# Glyphs
+
+The character unlock Glyph Slots **every 40h sessions** to enhance the attributes or unlock new abilities.
+
+> **Glyphs abaixo para rever**
+
+## Size 1
+
+### Anxiety (Size 1)
+> +5 Dodge Attribute
+
+### Masochist (Size 1)
+> +5 Block Attribute
+
+### Dementia (Size 1)
+> +5 Ward Attribute
+
+### Precise Swings (Size 1)
+> +10 on all Melee Weapon's Skill.
+
+### Precise Shoot (Size 1)
+> +10 on all Ranged Weapon's Skill.
+
+### Precise Concentration (Size 1)
+> +10 on all Magic Spell's Skill.
+
+### Powerful Swings (Size 1)
+> +1 damage on Melee Weapons.
+
+### Powerful Shoot (Size 1)
+> +1 damage on Ranged Weapons.
+
+### Powerful Concentration (Size 1)
+> +1 damage on Magic Spells.
+
+### Signature Spell (Size 1)
+> After each rest, choose one spell to cast without impose Mana Fatigue until the next Rest. <br>
+> The stored spell can only have a number of upscales up to 1/10 of the Magic Attribute without penalties. <br>
+> This spell can be cast even with Mana Fatigue at maximum capacity.
+
+---
+
+# Spells 
+
+### Astralmancy
+
+- +1 Echo Stack / upscale
+> Whenever a creature is hit by a spell while having an Echo stack, the spell increases one of its properties like an upscale. <br>
+> At the moment the spell hits, all echo spells are consumed and the caster choose the properties that are upscaled by the number of Echo stacks.
+
+### Aeromancy
+
+- +2m push or pull / upscale
+> Manipulating wind to cast a spell is powerfull enouth to knock down or blow away any creature. Depending on their size more or less powerfull. <br>
+> A creture hit by this spell can be push away or pulled toward the origin point of the spell.
+
+### Cryomancy
+
+- +1 Frost Stack / upscale
+> Cold temperature can slow a creture down. <br>
+> While a creature has a Frost stack, its speed is reduced by 2m. If the creature has negative speed, the creature takes damage at the end of its turn equal to half of the negative speed.
+
+---
